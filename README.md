@@ -8,7 +8,7 @@ Electricity Billing System By using Java to print the Electric Bill
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Electricity Billing</h3>
+<h3 align="center">Electricity Billing System</h3>
 
 <div align="center">
   
