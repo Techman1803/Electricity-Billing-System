@@ -1,5 +1,5 @@
 # Electricity Billing System
-Student registration Project By using MySQL DataBase and Java Jframe in NetBeans 
+Electricity Billing System By using Java to print the Electric Bill 
 
 # Project-Documentation
 
@@ -35,10 +35,10 @@ Student registration Project By using MySQL DataBase and Java Jframe in NetBeans
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Fully Functional Student Registration for the Perticular Course of Christ University. The technologies used in this project are Core Java, Java Frame, MYSQL DataBase. This project will show how we can perform CRUD System in Java By Using My SQL DataBase. In this Project a Student can Register himself for Christ University By Entering his name, Mobile Number and Course which he has Opted for By Clicking on the add button one pop up will come as "Record has been Successfully added" and  you can see all the added Records in another Panel and By Clicking the added Record you can Edit or Delete the added Record. While your Deleting the Record one more confirmation pop up will arise if click yes record will be deleted.
+Fully Functional Electricity billing System for by recogonizing the No of units Consumed by the Customers. The technologies used in this project are Core Java, Java Frame,. This project will show how we can print the Electricity Bill by recognizing the No of Units Consumed by the User. In this Project a Electricity Provider can print the Electricity Bill and give it to the Customers based on their Usage of their Electricity. Electricity provider can easily generate the electricity bill by entering the Customer Id, Cutomer Name and No of Units Consumed by the Customer the bill will Generate and by clicking on the print button Electricity bill will print. Electricity bill will generate based on the Condition that if the customer uses less than 500 Units for one Unit it will Cost 1 Rs, If the units used by the customer is more than 500 and less than 600 for him 1 unit will Cost 1.80 Rs, if Customer uses More than 600 units and less than 800 units 1 unit will cost him 3 Rs and if he Uses beyond 800 units 1 unit will Cost 5 Rs.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+First when you Extract the Zip file and Run on your System it will as you to Enter the Cutomer Id, Customer Name and No of Units Consumed and there are 2 Buttons are available by Clicking on Generate button bill will Generate and you can print the bill by clicking on print button.
 
 ### Prerequisites
 What things you need to install the software and how to install them.
@@ -46,8 +46,6 @@ What things you need to install the software and how to install them.
 ```
 First You need to install Apache Netbeans 17 you can download it by using the below link 
 https://netbeans.apache.org/download/index.html
-Next you need to install MySQL Server, MySQL Shell, MySQL WorkBench 
-https://dev.mysql.com/downloads/installer/
 ```
 
 ### Installing
@@ -56,28 +54,15 @@ Fist Click ond NetBeans URL and Install it and Then
 After Completing the download start the SetUP 
 After SetUp has been Started you need to select on Custom and click on Next
 You can see the Available Products
-In the Click on MySQL Server and go inside of it and Drag it to the Product to be installed Box
-Do the Same for MySQL Application and MySQL Shell and Click on Next 
-After that You can see the Installation Set Up and click on Execute and Product will install one by one 
-After completing the SetUp click on next and on Product Configuration Click on Next 
-Now Type and networking will be visible and there you Check for port no 3306 and keep the default and Click on next 
-Net set Root password keep Clicking on Next and Execute Your MySQL installation will be completed .
-
-Then Download the MYSQL Connectors from Same MySQL Website and then Extract it and keep it in one folder
-
-## 🔧 Running the tests <a name = "tests"></a>
-Open Apache NetBeans and Go to Library next Add Library and there you import the MySQL Connector
-Then Create one Database with Name Christ in the MySQL WorkBench
-and inside of that datbase create one table of name record of 4 columns ID, Name, Mobile and Course.
+After the apache NetBeans is ready to run on your System
 
 ## 🎈 Usage <a name="usage"></a>
-Main Use of this program is we can list out the Students with their Respective Couses and we can find the No of Students on Each Course
+Main Use of this program is that provider can easily provide the Electricity bill to his Customers Based on their Usage so he no need to calculate Seperately for the Users who Consumes less Electricity and for the User who use More Electricity
 
 ## 🚀 Deployment <a name = "deployment"></a>
 First Extract the file from GitHub and import it into Apache NetBeans and you can run the program
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [MySQL](https://www.mongodb.com/) - Database
 - [JAVA](https://expressjs.com/) - JFrame
 - [NetBeans](https://vuejs.org/) - IDE
 
